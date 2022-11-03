@@ -1,0 +1,71 @@
+@media screen and (max-width:800px) {
+  .card {
+    flex-direction: column;
+  }
+}
+
+
+
+.nav{
+  background-color: #F55A5A;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:static;
+}
+
+.world-icon {
+  height: 30px;
+  width: auto;
+  margin: 0px;
+  background-color: #F55A5A;
+  padding: 10px;
+}
+
+.nav h4 {
+  color: white;
+  background-color: #F55A5A;
+}
+
+.cards--list {
+  gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.location--image {
+  width: 200px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.navigation--image {
+  width: 1rem;
+
+}
+
+.country {
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.link {
+  color:#918E9B;
+  font-size: 15px;
+}
+
+.countryandlink {
+  display: flex;
+  gap: 16px;
+}
